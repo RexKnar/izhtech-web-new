@@ -744,9 +744,9 @@ body.out .pointer {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 570px;
-  font-size: 113px;
+  font-size: 75px;
   font-weight: 600;
-  line-height: 90px;
+  line-height: 74px;
 }
 
 .bg-dots:not(.dsn-btn, .service-item, .service-item-inner), .bg-dots .background-section:not(.dsn-btn, .service-item, .service-item-inner), .bg-dots .background-main:not(.dsn-btn, .service-item, .service-item-inner), .bg-dots .background-theme:not(.dsn-btn, .service-item, .service-item-inner) {
