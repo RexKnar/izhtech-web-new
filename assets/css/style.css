@@ -4525,10 +4525,17 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
 
 .dsn-brand .brand-item {
   display: flex;
+  background-color:#fff;
   align-items: center;
   justify-content: center;
   min-height: 190px;
   text-align: center;
+}
+.dsn-brand .border-bottom{
+  border-bottom: 1px solid #372d2dc7;
+}
+.dsn-brand .border-right{
+  border-right: 1px solid #0c0c0cf5;
 }
 @media only screen and (max-width: 767px) {
   .dsn-brand .brand-item {
@@ -4540,7 +4547,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
 }
 @media only screen and (min-width: 992px) {
   .dsn-brand .brand-item-inner {
-    width: 175px;
+    width: 115px;
   }
 }
 .dsn-brand .brand-item-inner img {
