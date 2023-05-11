@@ -31,40 +31,65 @@
         <i class="fas fa-search"></i>
         <i class="fas fa-link"></i>
     </div>
-    <div class="dsnload p-absolute">
-        <span class="dsnload__row">
-            <span class="dsnload__img">
-                <img src="./assets/img/Logo/Logo_-_white.png" class="logo-dark" alt="Blackdsn" decoding="async"
-                    loading="lazy" />
-                <img src="./assets/img/Logo/Logo_-_black.png" class="logo-light" alt="Blackdsn" decoding="async"
-                    loading="lazy" />
-            </span>
-        </span>
-        <span class="dsnload__row dsnload__row--sibling">
-            <span class="dsnload__img">
-                <img src="./assets/img/Logo/Logo_-_white.png" class="logo-dark" alt="Blackdsn" decoding="async"
-                    loading="lazy" />
-                <img src="./assets/img/Logo/Logo_-_black.png" class="logo-light" alt="Blackdsn" decoding="async"
-                    loading="lazy" />
-            </span>
-        </span>
-        <span class="dsnload__row dsnload__row--sibling">
-            <span class="dsnload__img">
-                <img src="./assets/img/Logo/Logo_-_white.png" class="logo-dark" alt="Blackdsn" decoding="async"
-                    loading="lazy" />
-                <img src="./assets/img/Logo/Logo_-_black.png" class="logo-light" alt="Blackdsn" decoding="async"
-                    loading="lazy" />
-            </span>
-        </span>
-        <span class="dsnload__row dsnload__row--sibling">
-            <span class="dsnload__img">
-                <img src="./assets/img/Logo/Logo_-_white.png" class="logo-dark" alt="Blackdsn" decoding="async"
-                    loading="lazy" />
-                <img src="./assets/img/Logo/Logo_-_black.png" class="logo-light" alt="Blackdsn" decoding="async"
-                    loading="lazy" />
-            </span>
-        </span>
+    <div id="dsn_preloader" class="preloader">
 
+        <div class="dsnload p-absolute">
+            <span class="dsnload__row">
+                <span class="dsnload__img">
+                    <img src="./assets/img/Logo/Logo_-_white.png" class="logo-dark" alt="Blackdsn" decoding="async"
+                        loading="lazy" />
+                    <img src="./assets/img/Logo/Logo_-_black.png" class="logo-light" alt="Blackdsn" decoding="async"
+                        loading="lazy" />
+                </span>
+            </span>
+            <span class="dsnload__row dsnload__row--sibling">
+                <span class="dsnload__img">
+                    <img src="./assets/img/Logo/Logo_-_white.png" class="logo-dark" alt="Blackdsn" decoding="async"
+                        loading="lazy" />
+                    <img src="./assets/img/Logo/Logo_-_black.png" class="logo-light" alt="Blackdsn" decoding="async"
+                        loading="lazy" />
+                </span>
+            </span>
+            <span class="dsnload__row dsnload__row--sibling">
+                <span class="dsnload__img">
+                    <img src="./assets/img/Logo/Logo_-_white.png" class="logo-dark" alt="Blackdsn" decoding="async"
+                        loading="lazy" />
+                    <img src="./assets/img/Logo/Logo_-_black.png" class="logo-light" alt="Blackdsn" decoding="async"
+                        loading="lazy" />
+                </span>
+            </span>
+            <span class="dsnload__row dsnload__row--sibling">
+                <span class="dsnload__img">
+                    <img src="./assets/img/Logo/Logo_-_white.png" class="logo-dark" alt="Blackdsn" decoding="async"
+                        loading="lazy" />
+                    <img src="./assets/img/Logo/Logo_-_black.png" class="logo-light" alt="Blackdsn" decoding="async"
+                        loading="lazy" />
+                </span>
+            </span>
+
+
+        </div>
+        <svg width="100%" height="100%" viewBox="0 0 100 100" class="v-middle" preserveAspectRatio="xMinYMin meet"
+            fill="none">
+            <linearGradient id="linearColors" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="var(--theme-color)"></stop>
+                <stop offset="50%" stop-color="var(--border-color)"></stop>
+                <stop offset="100%" stop-color="var(--assistant-color)"></stop>
+            </linearGradient>
+            <path class="dsn-progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+        <div class="loading-circle v-middle">
+            <p class="loading-count v-middle">0</p>
+        </div>
+
+        <span class="loading-text text-uppercase mt-30 dsn-container">Loading ...</span>
+        <div class="bg-load background-section d-flex align-items-end">
+            <svg class="dsn-separator-bottom dsn-icon-assistant-color" width="100%" height="100%" viewBox="0 0 100 10"
+                preserveAspectRatio="none">
+                <path class="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
+                    vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
+            </svg>
+        </div>
 
     </div>
 
@@ -73,7 +98,7 @@
         <!-- ========== Menu ========== -->
         <header id="site_menu_header" class="site-header  dsn-container d-none dsn-hamburger">
             <div class="main-logo">
-                <a href="index.html" data-dsn-text="Blackdsn" class="custom-logo-link main-brand effect-ajax" rel="home"
+                <a href="index.html" data-dsn-text="IZH-TECH" class="custom-logo-link main-brand effect-ajax" rel="home"
                     aria-current="page">
                     <img src="./assets/img/Logo/Logo_-_white.png" class="custom-logo logo-light" alt="Blackdsn" />
                     <img src="./assets/img/Logo/Logo_-_black.png" class="custom-logo logo-dark" alt="Blackdsn" />
@@ -86,6 +111,7 @@
                         <a title="Home" href="./index.html">
                             <span class="overflow ">Home</span>
                         </a>
+                    </li>
                     <li class="nav-item ">
                         <a title="Home" href="./about-us.html">
                             <span class="overflow">About</span>
@@ -96,7 +122,6 @@
                             <span class="overflow">Service</span>
                         </a>
                     </li>
-
                     <li class="nav-item ">
                         <a title="Home" href="./contact.html">
                             <span class="overflow">Contact</span>
@@ -106,19 +131,17 @@
                 <div class="container-content  d-flex flex-column justify-content-center section-margin">
                     <div class="nav__info">
                         <div class="nav-content">
-                            <h5 class="sm-title-block mb-10">Studio</h5>
-                            Flora Drive, Singapore 506889
-
+                            <h5 class="sm-title-block mb-10">Head Office</h5>
+                            <p>Flora Drive, Singapore 506889.<br></p>
                         </div>
                         <div class="nav-content mt-30">
                             <h5 class="sm-title-block mb-10">Contact</h5>
                             <p class="links over-hidden mb-1">
                                 <a class="link-hover d-block" href="tel:+65 89269693" data-hover-text="+65 89269693">+65
                                     89269693</a>
-                                <a class="link-hover" href="tel:8355990274" data-hover-text="8355990274">8355990274</a>
                             </p>
-                            <p class="links over-hidden"><a class="link-hover" href="mailto:info@dsngrid.com"
-                                    data-hover-text="info@dsngrid.com"></a></p>
+                            <p class="links over-hidden"><a class="link-hover" href="admin@izhtech.com"
+                                    data-hover-text="admin@izhtech.com">admin@izhtech.com</a></p>
 
                         </div>
                     </div>
@@ -179,10 +202,7 @@
                                     </h1>
                                 </div>
                                 <p class="mt-20 max-w570">
-                                    What if the time has come for you to change? Starting a collaboration is easy! Order
-                                    a
-                                    free consultation or call back. We are always in touch and happy to cooperate with
-                                    you
+                                    What if the time has come to step into the digital era?
                                 </p>
                                 <div class="dsn-def-btn dsn-hover-icon dsn-icon-heading-color mt-20 d-flex">
                                     <a class="dsn-btn dsn-border border-color-default  background-section effect-ajax has-icon-left"
@@ -274,8 +294,7 @@
                                         <div class="service-content p-relative">
                                             <h4 class="service_title  sm-title-block ">Head Office:</h4>
                                             <div class="service_description mt-10 max-w570 dsn-auto">
-                                                <p>Flora Drive, Singapore 506889.
-                                                    <br>Bhandup, Mumbai 400078.<br>Muweilah, Sharjah 96648.
+                                                <p>Flora Drive,<br> Singapore 506889.
                                                 </p>
                                             </div>
                                         </div>
@@ -290,8 +309,7 @@
                                             <h4 class="service_title  sm-title-block ">
                                                 Phones:</h4>
                                             <div class="service_description mt-10 max-w570 dsn-auto">
-                                                <p>+1 (850) 344 0
-                                                    66</p>
+                                                <p>+65 89269693</p>
                                             </div>
                                         </div>
                                     </div>
@@ -304,7 +322,7 @@
                                             <h4 class="service_title  sm-title-block ">
                                                 Write Us:</h4>
                                             <div class="service_description mt-10 max-w570 dsn-auto">
-                                                <p>.com</p>
+                                                <p>admin@izhtech.com</p>
                                             </div>
                                         </div>
                                     </div>
@@ -323,8 +341,8 @@
             <!-- ========== End Map  ========== -->
 
             <!-- ========== Footer ========== -->
-            <footer id="dsn_footer" class="dsn-footer p-relative">
-                <svg class="dsn-separator dsn-separator-up  dsn-icon-main-color" width="100%" height="100%"
+            <footer id="dsn_footer" class="dsn-footer p-relative footer-animate svg-animate background-main">
+                <svg class="dsn-separator dsn-separator-up  dsn-icon-assistant-color" width="100%" height="100%"
                     viewBox="0 0 100 10" preserveAspectRatio="none">
                     <path class="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
                         vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
@@ -332,19 +350,19 @@
                 <div class="footer-content p-relative mt-section">
 
                     <div class="text-center container">
-                        <h2 class="title-h2 ">
+                        <!-- <h2 class="title-h2 ">
                             LET'S BUILD SOMETHING
                             <span class="d-block"><b><i>AMAZING </i></b>TOGETHER</span>
-                        </h2>
+                        </h2> -->
                         <!-- <div class="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center mt-30">
-                            <a class="dsn-btn dsn-border border-color-default  background-section  effect-ajax has-icon-left"
-                                href="work-classic-2.html" data-dsn-text="OUR PORTFOLIO">
-                                <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
-                                    <i class="fas fa-angle-right" aria-hidden="true"></i>
-                                </span>
-                                <span class="title-btn p-relative  z-index-1 ">START A PROJECT</span>
-                            </a>
-                        </div> -->
+                        <a class="dsn-btn dsn-border border-color-default  background-section  effect-ajax has-icon-left"
+                           href="contact.html" data-dsn-text="START A PROJECT">
+                    <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                    </span>
+                            <span class="title-btn p-relative  z-index-1 ">START A PROJECT</span>
+                        </a>
+                    </div> -->
 
                     </div>
                     <div class="dsn-container pt-60">
@@ -361,8 +379,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <ul class="dsn-socials box-social mt-20">
-
+                                <ul class="dsn-socials box-social mt-20 dsn-icon-heading-color">
                                     <li><a href="https://www.linkedin.com/company/izh-tech/" target="_blank"
                                             rel="nofollow" class="init-color move-circle border-color-default"
                                             data-dsn="parallax"><span class="dsn-icon"><i
@@ -418,10 +435,9 @@
 
                                 <div class="col-contact">
                                     <p><strong>M</strong> :+65 89269693 </p>
-                                    <p class="mt-10"><strong>W</strong> :8355990274</p>
                                     <p class="over-hidden mt-10">
-                                        <strong></strong><a class="link-hover" href="#"
-                                            data-hover-text="info@dsngrid.com"></a>
+                                        <strong>E:</strong> <a class="link-hover" href="#"
+                                            data-hover-text="admin@izhtech.com">admin@izhtech.com</a>
                                     </p>
                                 </div>
 
@@ -432,8 +448,7 @@
                                 </h4>
                                 <div class="col-address">
                                     <p>
-                                        Flora Drive, Singapore 506889.
-                                        <br>Bhandup, Mumbai 400078.<br>Muweilah, Sharjah 96648.
+                                        Flora Drive,<br>Singapore 506889
                                     </p>
                                 </div>
                             </div>
@@ -441,7 +456,7 @@
                         <div class="footer-bottom mt-60 pt-30 border-top pb-30 text-center">
                             <p class="over-hidden">
                                 © 2023 Powered by
-                                <a href="./index.html" class="link-hover" data-hover-text="DSN Grid" target="_blank">ISH
+                                <a href="./index.html" class="link-hover" data-hover-text="DSN Grid" target="_blank">IZH
                                     TECH</a>
                             </p>
                         </div>
@@ -467,28 +482,31 @@
     <!-- ==========  Social ========== -->
     <div class="social-side d-flex align-items-center flex-column justify-content-center">
 
-        <li style="--dsn-index-animate : 0;">
-            <a href="https://www.linkedin.com/company/izh-tech/" target="_blank" rel="nofollow">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i><span>Linkedin</span>
-            </a>
-        </li>
+        <ul class="socials d-flex flex-column-reverse">
 
-        <li style="--dsn-index-animate : 1;">
-            <a href="https://twitter.com/izhtech" target="_blank" rel="nofollow">
-                <i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span>
-            </a>
-        </li>
+            <li style="--dsn-index-animate : 0;">
+                <a href="https://www.linkedin.com/company/izh-tech/" target="_blank" rel="nofollow">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i><span>Linkedin</span>
+                </a>
+            </li>
 
-        <li style="--dsn-index-animate : 2;">
-            <a href="https://www.facebook.com/profile.php?id=100091657835111" target="_blank" rel="nofollow">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>Facebook</span>
-            </a>
-        </li>
-        <li style="--dsn-index-animate : 3;">
-            <a href="https://www.instagram.com/izh_tech/" target="_blank" rel="nofollow">
-                <i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span>
-            </a>
-        </li>
+            <li style="--dsn-index-animate : 1;">
+                <a href="https://twitter.com/izhtech" target="_blank" rel="nofollow">
+                    <i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span>
+                </a>
+            </li>
+
+            <li style="--dsn-index-animate : 2;">
+                <a href="https://www.facebook.com/profile.php?id=100091657835111" target="_blank" rel="nofollow">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>Facebook</span>
+                </a>
+            </li>
+            <li style="--dsn-index-animate : 3;">
+                <a href="https://www.instagram.com/izh_tech/" target="_blank" rel="nofollow">
+                    <i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span>
+                </a>
+            </li>
+
         </ul>
         <div class="icon">FOLLOW US</div>
     </div>
