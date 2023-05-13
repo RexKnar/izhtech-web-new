@@ -1414,7 +1414,7 @@ const dsnParam = {
 			$('.pointer').removeClass("black")	  
 		})
 		
-		$(".pointer-large, .swiper-button-next, .swiper-button-prev, .mfp-arrow-left, .mfp-arrow-right, .home-slider .swiper-pagination-bullet")
+		$(".pointer-large, .swiper-button-next, a, .swiper-button-prev, .mfp-arrow-left, .mfp-arrow-right, .home-slider .swiper-pagination-bullet")
 		.on("mouseenter", function() {	 
 			$('.pointer').addClass("large")	  
 		})
