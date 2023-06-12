@@ -103,7 +103,7 @@
             <!-- ========== Menu ========== -->
             <header id="site_menu_header" class="site-header  dsn-container d-none dsn-hamburger">
                 <div class="main-logo">
-                    <a href="index.html" data-dsn-text="IZH-TECH" class="custom-logo-link main-brand effect-ajax"
+                    <a href="index.php" data-dsn-text="IZH-TECH" class="custom-logo-link main-brand effect-ajax"
                         rel="home" aria-current="page">
                         <img src="./assets/img/Logo/Logo_-_white.png" class="custom-logo logo-light" alt="Blackdsn" />
                         <img src="./assets/img/Logo/Logo_-_black.png" class="custom-logo logo-dark" alt="Blackdsn" />
@@ -113,22 +113,22 @@
                     <div class="menu-cover-title header-container dsn-container">MENU</div>
                     <ul id="dsn-primary-list" class="primary-nav h2">
                         <li class="nav-item has-sub-menu">
-                            <a title="Home" href="./index.html">
+                            <a title="Home" href="./index.php">
                                 <span class="overflow ">Home</span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a title="Home" href="./about-us.html">
+                            <a title="Home" href="./about-us.php">
                                 <span class="overflow">About</span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a title="Service" href="./service.html">
+                            <a title="Service" href="./service.php">
                                 <span class="overflow">Service</span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a title="Home" href="./contact.html">
+                            <a title="Home" href="./contact.php">
                                 <span class="overflow">Contact</span>
                             </a>
                         </li>
