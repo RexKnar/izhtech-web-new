@@ -206,7 +206,7 @@
                 </div>
                 <div id='get-number'></div><a class='close-chat' href='javascript:void'>×</a>
             </div> -->
-            <a class='blantershow-chat' href='https://wa.me/8148025194?text=I would like to know more about your services' title='Show Chat'><svg width="20" viewBox="0 0 24 24">
+            <a class='blantershow-chat' href='https://wa.me/+6589269693?text=I would like to know more about your services' title='Show Chat'><svg width="20" viewBox="0 0 24 24">
                     <defs />
                     <path fill="#eceff1"
                         d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z" />
