@@ -59,16 +59,8 @@ include('./shared/header.php');
                         </h2>
                         <p class="mt-10">Fill fields and find approximate your repair</p>
                         <div class="dsn-form mt-20 form-box d-flex flex-column" id="contact">
-                            <?php  if($_GET)
-                            {
-                                if($_GET['token']=='success')
-                                {
-                                    echo '<p class="text-success">Thanks for contacting IZH-Tech. Our team will contact you soon.</p>';
-                                }
-                                
-                            }
-                            ?>
-                            <form id="contact-form" class="form w-100" method="post" action="shared/contact-us.php"
+                        <p class="text-success with-errors" id="contactResponse" ></p>
+                            <form id="contact-form" class="form w-100" method="post" onsubmit="event.preventDefault();sendContactDetail(event);"
                                 data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">

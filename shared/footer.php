@@ -15,7 +15,7 @@
                                 <div class="grid-col-1">
                                     <div class="dsn-logo main-logo">
                                         <div class="main-logo">
-                                            <a href="./index.html" data-dsn-text="Blackdsn"
+                                            <a href="./index.php" data-dsn-text="Blackdsn"
                                                 class="custom-logo-link main-brand effect-ajax" rel="home">
                                                 <img class="custom-logo logo-light"
                                                     src="./assets/img/Logo/Logo_-_white.png" alt="Blackdsn" />
@@ -58,16 +58,16 @@
                                     <div class="menu-footer-menu-container">
                                         <ul id="menu-footer-menu" class="menu">
                                             <li class="menu-item">
-                                                <a href="./index.html" class="effect-ajax">HOME</a>
+                                                <a href="./index.php" class="effect-ajax">HOME</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="./about-us.html" class="effect-ajax">ABOUT</a>
+                                                <a href="./about.php" class="effect-ajax">ABOUT</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="./service.html" class="effect-ajax">SERVICE</a>
+                                                <a href="./service.php" class="effect-ajax">SERVICE</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="./contact.html" class="effect-ajax">CONTACT</a>
+                                                <a href="./contact.php" class="effect-ajax">CONTACT</a>
                                             </li>
 
                                         </ul>
@@ -102,7 +102,7 @@
                                 <p class="over-hidden">
                                     © 2023 Powered by
                                     <a href="./index.html" class="link-hover" data-hover-text="IZH TECH"
-                                        target="_blank">IZH-TECH</a>
+                                        target="_blank">Izh-Tech</a>
                                 </p>
                             </div>
                         </div>
@@ -156,56 +156,6 @@
 
         <!-- ====== Whatsapp Chatbox ======= -->
         <div class="Chat-box">
-            <!-- <div id='whatsapp-chat' class='hide'>
-                <div class='header-chat'>
-                    <div class='head-home'>
-                        <div class='info-avatar'><img
-                                src='https://files.elfsight.com/storage/9274ed8b-a2e8-4cf8-a4cf-fad383377f2b/7b75090c-19a2-452b-9d6b-c2a51ad4916f.jpeg' />
-                        </div>
-                        <p><span class="whatsapp-name">Izhtech</span><br><small>Typically replies within an hour</small>
-                        </p>
-
-                    </div>
-                    <div class='get-new hide'>
-                        <div id='get-label'></div>
-                        <div id='get-nama'></div>
-                    </div>
-                </div>
-                <div class='home-chat'>
-
-                </div>
-                <div class='start-chat'>
-                    <div pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png"
-                        class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body">
-                        <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
-                            <div style="opacity: 0;" class="WhatsappDots__Component-pks5bf-0 eJJEeC">
-                                <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
-                                    <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"></div>
-                                    <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"></div>
-                                    <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt">
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="opacity: 1;" class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq">
-                                <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">Izhtech</div>
-                                <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">Hi there 👋<br><br>How can I help
-                                    you?
-                                </div>
-                                <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class='blanter-msg'>
-                        <textarea id='chat-input' placeholder='Write a response' maxlength='120' row='1'></textarea>
-                        <a href='https://wa.me/8148025194?text=sdfsd sdfsfsdf' id='send-it'><svg viewBox="0 0 448 448">
-                                <path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z" />
-                            </svg></a>
-
-                    </div>
-                </div>
-                <div id='get-number'></div><a class='close-chat' href='javascript:void'>×</a>
-            </div> -->
             <a class='blantershow-chat' href='https://wa.me/+6589269693?text=I would like to know more about your services' title='Show Chat'><svg width="20" viewBox="0 0 24 24">
                     <defs />
                     <path fill="#eceff1"
@@ -231,6 +181,25 @@
             integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="./assets/js/chat-box.js"></script>
+        <script>
+            function sendContactDetail(e) {
+                // e.preventDefault();
+                // alert();
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function(response) {
+    if(response)
+    {
+        console.log(response);
+        $('#contactResponse').html('Thanks for contacting IZH-Tech. Our team will contact you soon.');
+    }
+    else{
+        $('#contactResponse').html('OOPS! Something went wrong. Try again later.');
+    }
+    }
+  xhttp.open("GET", "https://rexknar.com/common/izhtech-contact.php", true);
+  xhttp.send();
+}
+        </script>
 
     </body>
 

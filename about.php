@@ -177,7 +177,7 @@ include('./shared/header.php');
                         </h4>
                         <div class="service_description mt-20 max-w570 dsn-auto">
                             <p>
-                                IZH Tech developed Groundbreaking software to invigorate your business
+                                Izh-Tech developed Groundbreaking software to invigorate your business
                                 by
                                 aggregating artistic ambience to utility.
                             </p>

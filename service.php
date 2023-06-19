@@ -192,7 +192,7 @@ include('./shared/header.php');
                                 We provide you with the best service <b>in the market</b>
                             </h5>
                             <p class="mt-20">
-                                Are you seeking to elevate your business digitally? Your search ends here with IZH Tech,
+                                Are you seeking to elevate your business digitally? Your search ends here with Izh-Tech,
                                 a specialized firm that excels in propelling businesses to new heights! We hold a strong
                                 conviction that a robust brand is fundamental to the success of any business endeavor.
                                 To aid you in creating and expanding your brand, we provide an extensive array of
@@ -243,7 +243,7 @@ include('./shared/header.php');
                                 time.
                             </p>
                             <p class="mt-20">
-                                At IZH Tech, we are dedicated to providing top-notch services and delivering exceptional
+                                At Izh-Tech, we are dedicated to providing top-notch services and delivering exceptional
                                 results. Our team is committed to your success, and we are excited to partner with you
                                 on your branding, web design and development, mobile app development, and digital
                                 marketing initiatives. Let us help you unlock the full potential of your business in the
@@ -365,7 +365,7 @@ include('./shared/header.php');
                                     </h4>
                                     <div class="service_description mt-20 max-w570 dsn-auto">
                                         <p>
-                                            IZH Tech developed Groundbreaking software to invigorate your business
+                                            Izh-Tech developed Groundbreaking software to invigorate your business
                                             by
                                             aggregating artistic ambience to utility.Our comprehensive suite of services
                                             is tailored to meet the needs of businesses of all sizes, from B2B to B2C.
