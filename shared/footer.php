@@ -183,6 +183,21 @@
         <script src="./assets/js/chat-box.js"></script>
         <script>
             function sendContactDetail(e) {
+                
+
+$.ajax({
+ type: "POST",
+ url: 'https://rexknar.com/common/izhtech-contact.php',
+ data: {name: $('#form_name').val(),
+email:$('#form_email').val(),
+message:$('#form_message').val()},
+ success: function(data){
+ console.log(data);
+ },
+ error: function(xhr, status, error){
+ console.error(xhr);
+ }
+});
                 // e.preventDefault();
                 // alert();
   const xhttp = new XMLHttpRequest();
@@ -196,7 +211,7 @@
         $('#contactResponse').html('OOPS! Something went wrong. Try again later.');
     }
     }
-  xhttp.open("GET", "https://rexknar.com/common/izhtech-contact.php", true);
+  xhttp.open("POST", "https://rexknar.com/common/izhtech-contact.php", true);
   xhttp.send();
 }
         </script>

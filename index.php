@@ -38,7 +38,7 @@ include('./shared/header.php');
                                 GEAR UP YOUR BUSINESS FASTER
                             </h2>
                             <p class="description swiper-animate-head max-w570 mt-20">
-                                Elevate your brand/servies to new heights with our cutting-edge digital
+                                Elevate your brand/services to new heights with our cutting-edge digital
                                 solutions that revolutionize the way you do business, ensuring you stay
                                 ahead of the curve and stand out from the crowd.
                             </p>
@@ -59,7 +59,7 @@ include('./shared/header.php');
                             </h2>
                             <p class="description swiper-animate-head max-w570 mt-20">
                                 Empower your business with our comprehensive suite of digital solutions
-                                that cater tp all your needs, all under one roof.
+                                that cater up all your needs, all under one roof.
                             </p>
 
                         </div>
