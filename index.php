@@ -230,7 +230,7 @@ include('./shared/header.php');
                             data-dsn-animation='{"from":{"paddingLeft":"10%"},"to":{"paddingLeft":"20%"},"responsive":["tablet","desktop"]}'>
                             WE ARE
                         </span>
-                        <span>IZH-TECH</span>
+                        <span>Izh-Tech</span>
                         <span class="text-right w-100"></span>
                     </h2>
                     <div class="d-grid grid-half-1 align-items-center mt-10">
@@ -379,7 +379,7 @@ include('./shared/header.php');
                             </h4>
                             <div class="service_description mt-20 max-w570 dsn-auto">
                                 <p>
-                                    IZH Tech developed Ground-breaking software to
+                                    Izh-Tech developed Ground-breaking software to
                                     invigorate your business by aggregating artistic
                                     ambience to utility.
                                 </p>
