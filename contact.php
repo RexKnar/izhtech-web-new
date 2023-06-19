@@ -60,7 +60,9 @@ include('./shared/header.php');
                         <p class="mt-10">Fill fields and find approximate your repair</p>
                         <div class="dsn-form mt-20 form-box d-flex flex-column" id="contact">
                         <p class="text-success with-errors" id="contactResponse" ></p>
-                            <form id="contact-form" class="form w-100" method="post" onsubmit="event.preventDefault();sendContactDetail(event);"
+                              <!-- onsubmit="event.preventDefault();sendContactDetail(event);" -->
+                            <form id="contact-form" class="form w-100" method="post" 
+                      action="https://rexknar.com/common/izhtech-contact.php"
                                 data-toggle="validator">
                                 <div class="messages"></div>
                                 <div class="input__wrap controls">
