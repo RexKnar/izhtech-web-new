@@ -15,7 +15,7 @@
                                 <div class="grid-col-1">
                                     <div class="dsn-logo main-logo">
                                         <div class="main-logo">
-                                            <a href="./index.html" data-dsn-text="Blackdsn"
+                                            <a href="./index.php" data-dsn-text="Blackdsn"
                                                 class="custom-logo-link main-brand effect-ajax" rel="home">
                                                 <img class="custom-logo logo-light"
                                                     src="./assets/img/Logo/Logo_-_white.png" alt="Blackdsn" />
@@ -58,16 +58,16 @@
                                     <div class="menu-footer-menu-container">
                                         <ul id="menu-footer-menu" class="menu">
                                             <li class="menu-item">
-                                                <a href="./index.html" class="effect-ajax">HOME</a>
+                                                <a href="./index.php" class="effect-ajax">HOME</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="./about-us.html" class="effect-ajax">ABOUT</a>
+                                                <a href="./about.php" class="effect-ajax">ABOUT</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="./service.html" class="effect-ajax">SERVICE</a>
+                                                <a href="./service.php" class="effect-ajax">SERVICE</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="./contact.html" class="effect-ajax">CONTACT</a>
+                                                <a href="./contact.php" class="effect-ajax">CONTACT</a>
                                             </li>
 
                                         </ul>
@@ -231,6 +231,25 @@
             integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="./assets/js/chat-box.js"></script>
+        <script>
+            function sendContactDetail(e) {
+                // e.preventDefault();
+                // alert();
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function(response) {
+    if(response)
+    {
+        console.log(response);
+        $('#contactResponse').html('Thanks for contacting IZH-Tech. Our team will contact you soon.');
+    }
+    else{
+        $('#contactResponse').html('OOPS! Something went wrong. Try again later.');
+    }
+    }
+  xhttp.open("GET", "https://rexknar.com/common/izhtech-contact.php", true);
+  xhttp.send();
+}
+        </script>
 
     </body>
 

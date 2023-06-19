@@ -118,7 +118,7 @@
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a title="Home" href="./about-us.php">
+                            <a title="Home" href="./about.php">
                                 <span class="overflow">About</span>
                             </a>
                         </li>
