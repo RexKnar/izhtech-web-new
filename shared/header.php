@@ -20,7 +20,7 @@
     <link rel="icon" href="./assets/img/Logo/favicon-2-dark" sizes="32x32" />
     <link rel="icon" href="./assets/img/Logo/favicon-2-dark" sizes="192x192" />
 
-    <title>IZH Tech | <?php echo $pages[$_SESSION['page']];  ?></title>
+    <title>Izh-Tech | <?php echo $pages[$_SESSION['page']];  ?></title>
 
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">

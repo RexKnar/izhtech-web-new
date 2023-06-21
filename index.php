@@ -277,7 +277,7 @@ include('./shared/header.php');
                         <span>advantages</span>
                     </p>
                     <span class="title-h2 title-block-lg d-block heading-color">
-                        <span>Let’s Check <b>Our Services</b></span>
+                        <span><b>Our Services</b></span>
                     </span>
                 </div>
             </div>
