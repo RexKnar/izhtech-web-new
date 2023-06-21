@@ -17,8 +17,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="./assets/img/Logo/favicon-3-01.png" sizes="32x32" />
-    <link rel="icon" href="./assets/img/Logo/favicon-3-01.png" sizes="192x192" />
+    <link rel="icon" href="./assets/img/Logo/favicon-2-dark" sizes="32x32" />
+    <link rel="icon" href="./assets/img/Logo/favicon-2-dark" sizes="192x192" />
 
     <title>IZH Tech | <?php echo $pages[$_SESSION['page']];  ?></title>
 

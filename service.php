@@ -61,7 +61,7 @@ include('./shared/header.php');
                 <div class="content  section-padding h-100 dsn-container d-flex align-items-center">
                     <div class="background-main box-padding">
                         <h3 class="title-h2 body-font text-upper">
-                            Let’s Check <b>Our Services</b>
+                            <b>Our Services</b>
                         </h3>
                         <ul class="mt-30 pt-5 dsn-list">
                             <li class="list-item d-flex align-items-center">
